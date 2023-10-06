@@ -6,7 +6,7 @@ baixo acoplamento entre classes.
 """
 
 """
-Problema: A simple factory permite instânciar classes sem que o cliente precise chamar as classes diretamente, ao invés disso uma fábrica lida com o processo de criação de objetos. No entanto, ao criar objetos, é provável que nem todos os clientes tenham acesso as mesmas funcionalidades por exemplo a Uber nos estados unidos oferece mais variedades de carros como o Green e o XL, que não existem no Brasil. Para resolver isso é necessário permitir que as subclasses decidam como a interface se comportará."""
+Problema: A simple factory permite instânciar classes sem que o cliente precise chamar as classes diretamente, ao invés disso uma fábrica lida com o processo de criação de objetos. No entanto, ao criar objetos, é provável que nem todos os clientes tenham acesso as mesmas funcionalidades por exemplo: a Uber nos estados unidos oferece mais variedades de carros como o Green e o XL, que não existem no Brasil. Para resolver isso é necessário permitir que as subclasses decidam como a interface se comportará."""
 
 from abc import ABC, abstractmethod
 
