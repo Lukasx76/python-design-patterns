@@ -10,7 +10,7 @@ def singleton(cls):
 
 
 @singleton
-class Singleton(object):
+class Government(object):
 
     def __init__(self) -> None:
         self.attr = None
