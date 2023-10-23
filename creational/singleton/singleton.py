@@ -1,7 +1,10 @@
 """
+    
     O Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
 
     fonte: https://refactoring.guru/pt-br/design-patterns/singleton
+
+    Singleton clássico: cria uma instância se nenhuma foi criada caso contrário retorna a instância que já foi criada.
 """
 
 """
